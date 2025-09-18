@@ -91,12 +91,16 @@ body *{
     right: 0;
     z-index: 1;
     transform: translateY(-50%);
+    animation: slide-out 0.3s forwards;/*animação de deslizar para a esquerda*/
+    cursor: pointer;/*muda o cursor para uma mãozinha indicando que é clicável*/
     
 }
 .light #switch button{
-    right: 0;
-    right: initial;
-}
+    animation: slide-in 0.3s forwards;/*animação de deslizar para a direita*/}
+  #switch button:hover{
+    outline : 8px solid var(--highlight-color);
+  } 
+    
 
 #switch span{
     display: block;
@@ -177,3 +181,22 @@ footer{
     --bg-url: url(./assets/assets/bg-desktop-light.jpg);
   }
     }
+    /*animações*/
+@keyframes slide-in{
+    from{
+        left: 0
+    }
+    to
+    {
+        left: 50%;
+    } 
+}
+@keyframes slide-out{
+    from{
+        left: 50%
+    }
+    to
+    {
+        left: 0;
+    } 
+}
