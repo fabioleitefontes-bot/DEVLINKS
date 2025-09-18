@@ -35,6 +35,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
+Meu primeiro contato com HTML, CSS e JavaScript foi fascinante. Com HTML, aprendi a estruturar o conteúdo; com CSS, a centralizar elementos usando display flex e a estilizar tudo, dando um visual profissional. Já o JavaScript me abriu um mundo de possibilidades, permitindo a criação de funções para adicionar interatividade e dinamismo à página. Ver as três linguagens funcionando juntas, transformando o código em algo visual e funcional, foi uma experiência incrível.
+
 - [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
 - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
