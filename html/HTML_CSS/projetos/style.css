@@ -22,7 +22,7 @@
 .light {
     --text-color: #000000;
     --bg-url: url(./assets/assets/Background-light.png);
-    stroke-color: rgba(0, 0, 0, 0.5);
+    --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
@@ -30,7 +30,7 @@
 }
 body
 {
-
+     transition: background 0.3s; 
   background: var(--bg-url) no-repeat center center/ cover;
 
 }
@@ -41,8 +41,8 @@ body *{
 
 #container
 {
-    padding-top: 56px;
-    width: 360px;
+    max-width: 100%;
+    width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
     /*
@@ -59,6 +59,7 @@ body *{
 {
     width: 150px;
     align-items: center;
+     transition: transform 2s ease-in-out, filter 2s ease-in-out; 
 }
 #profile p
 {
@@ -86,6 +87,7 @@ body *{
     right: 0;
     z-index: 1;
     transform: translateY(-50%);
+    
 }
 .light #switch button{
     right: 0;
